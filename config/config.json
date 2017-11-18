@@ -1,0 +1,20 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:50",
+        "port": 55373,
+        "pin": "033-73-874"
+    },
+
+    "description": "This is an example configuration file with one fake accessory and one fake platform. You can use this as a template for creating your own configuration file containing devices you actually own.",
+
+    "accessories": [
+        {
+            "accessory": "Plugin",
+            "name": "Coffee Maker"
+        }
+    ],
+
+    "platforms": []
+}
+

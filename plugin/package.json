@@ -1,0 +1,18 @@
+{
+  "name": "homebridge-plugintest",
+  "version": "1.0.0",
+  "description": "Initial Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "author": "wei",
+    "license": "ISC",
+  "engines": {
+      "node": ">=0.12.0",
+      "homebridge": ">=0.2.0"
+  }
+}
