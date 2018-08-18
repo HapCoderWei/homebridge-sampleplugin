@@ -2,6 +2,7 @@
 A sample of homebrodge-plugin. You can fork this and start write your first homebridge-plugin!
 
 This plugin implement a switch in your homekit app, below is two screenshots.
+
 |![关闭.png](http://upload-images.jianshu.io/upload_images/4661034-fcec41080a6f429b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/240)|![打开.png](http://upload-images.jianshu.io/upload_images/4661034-29c54347387218bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/240)|
 |:-|:-|
 
@@ -11,9 +12,9 @@ As you can see, the `Get on Function` and `Set on Function` is logs when we touc
 
 ## Installation
 ###  What we need
-    - A clean `Homebridge` development with no plugin installed
+    - A clean Homebridge development with no plugin installed
     - A iOS devices with homekit app
-### Dictionary Structure
+### Directory Structure
 In this plugin, the dictionary should be like this
 ```
 ~/piDire/homebridge-dev$ tree
@@ -50,7 +51,7 @@ Configuration sample:
 }
 
 ```
-Now you can run it with command
+Now you can run it with command:
 ```
 DEBUG=* homebridge -D -U ~/homebridge-dev/config/ -P ~/homebridge-dev/plugin/
 ```
